@@ -10,7 +10,7 @@ lemmatizer = Lemmatizer()
 #tagger = POSTagger(model='resources-0.5/postagger.model')
 
 input_file = open('train.txt', 'r')
-output = open('mallet.txt','w')
+output = open('input.txt','w')
 cnt = 0
 count = 0
 for line in input_file:
